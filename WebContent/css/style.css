@@ -1,0 +1,188 @@
+
+body {
+	padding-top:1%;
+	padding-left:1.4%;
+	padding-right:1.4%;
+} 
+	
+H4 {
+	font-size: 30px;
+	font-weight: normal;
+	cursor: pointer;
+	text-shadow: -1px -1px #000, 0 1px 0 #444;
+	color: #222;
+	transition: all 1s;
+}
+  
+.btn {
+	width:auto;
+	padding:5px 15px 5px 15px;
+	margin-left:50px;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+	background-color:#FFF;
+	color:#666 !important;
+	cursor:pointer;
+	display:inline-block;
+	font-size:24px;
+	text-align:center;
+	text-decoration:none;
+	border:#999 1px solid;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+}
+  
+.logBtn {
+ 	display:flex;
+  	justify-content:flex-end;
+  	align-items:center; 
+  	width:auto;
+	padding:5px 15px 5px 15px;
+	margin-left:50px;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none;
+	appearance:none;
+	background-color:#FFF;
+	color:#666 !important;
+	cursor:pointer;
+	display:inline-block;
+	font-size:24px;
+	text-align:center;
+	text-decoration:none;
+	border:#999 1px solid;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-khtml-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+}  
+  
+H4:hover {
+	color: #1A1A1A;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:visited {
+	color: #cecece; 
+}
+
+a:active {
+    color: #ffff00; 
+}
+   
+H1 {
+	font-size: 40px;
+	font-weight: normal;
+	cursor: pointer;
+	text-shadow: -1px -1px #FFF,
+				-2px -2px #FFF,
+				-1px 1px #FFF,
+				-2px 2px #FFF,
+				1px 1px #FFF,
+				2px 2px #FFF,
+				1px -1px #FFF,
+				2px -2px #FFF,
+				-3px -3px 2px #BBB,
+				-3px 3px 2px #BBB,
+				3px 3px 2px #BBB,
+				3px -3px 2px #BBB;
+	color: steelblue;
+ 	transition: all 1s;
+}
+
+H1:hover {
+	color: yellowgreen;
+}
+
+H2 {
+	font-size: 30px;
+	font-weight: normal;
+	text-shadow: 1px 1px white,
+				 2px 2px #777;
+	color: #333;
+	transition: all 1s;
+}
+
+H2:hover {
+	text-shadow: 1px 1px white,
+                 2px 2px tomato;
+	color: crimson;
+}
+	
+H3 {
+	font-size: 20px;
+	font-weight: normal;
+	cursor: pointer;
+	text-shadow: 1px 1px white,
+				2px 2px #777;
+	color: #333;
+	transition: all 1s;
+}
+
+H3:hover {
+	text-shadow: 1px 1px white,
+                 2px 2px tomato;
+	color: crimson;
+}
+   
+.fixed-ratio-resize {
+	height: auto; 
+	width: auto; 
+	max-width: 200px; 
+	max-height: 400px;
+}
+
+.spacing {
+	margin-top: 50px;
+	border-spacing: 50px 20px;
+}
+
+.box {
+	margin-top: 0px;
+	margin-bottom:15px;
+	background-color: #ffffff;
+	position:relative;
+	border: 2px solid #D4D4D4;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #A9A9A9;
+	width: 90%;
+	height: 90%;
+	padding:20px 20px;
+}
+
+.header{
+	margin:1px;
+	height:10%;
+	padding:1px;
+	width:100%
+}
+
+.caption{
+	margin:1px;
+	padding:1px;
+	height:4%;
+	width:100%
+}
+
+.imgp{
+	float:left;
+	margin: 0; 
+}
+
+.edit {
+    border:1px solid #9E9E9E;
+    color: #000000;
+    padding: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 11px;
+    font-family: Verdana;
+    background: #FFF;
+}
